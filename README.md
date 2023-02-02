@@ -1,4 +1,4 @@
-# :zap: React를 Emotion을 사용하여 스타일링한 연습 페이지입니다.
+# 🖋️ React를 Emotion을 사용하여 스타일링한 연습 페이지입니다.
 :octocat: https://light9639.github.io/React-Emotion-Styling/
 
 ![light9639 github io_React-Emotion-Styling_](https://user-images.githubusercontent.com/95972251/212886381-9cfb65bd-b28f-4f22-a688-33b807a0e43b.png)
@@ -30,7 +30,7 @@ yarn add emotion @emotion/react @emotion/styled
 ## ✒️ main.tsx, App.tsx, theme.ts, Button.tsx 수정 및 작성
 ### :zap: main.tsx
 - theme.ts 생성 후 import 한 뒤 <ThemeProvider theme={theme}></ThemeProvider>로 <App />을 감싸면 theme를 사용할 수 있다.
-```bash
+```js
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
@@ -49,7 +49,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 ### :zap: App.tsx
 - emotion을 사용하다 보면 생기는 오류들은 `/** @jsxImportSource @emotion/react */` 을 상단에 적음으로써 해결된다.
 - `props`를 사용하여 각각의 색상을 다르게 한다.
-```bash
+```js
 /** @jsxImportSource @emotion/react */
 import styled from "@emotion/styled";
 import { useTheme } from "@emotion/react";
@@ -123,7 +123,7 @@ export default function App(): JSX.Element {
 
 ### :zap: theme.tsx
 - theme를 만들고 type 지정을 하려면 declare에 작성하면 된다.
-```bash
+```js
 import { Theme } from "@emotion/react";
 
 declare module "@emotion/react" {
@@ -149,7 +149,7 @@ export default theme;
 
 ### :zap: Button.tsx
 - props 속성을 사용하여 각 버튼을 다르게 설정한다.
-```bash
+```js
 /** @jsxImportSource @emotion/react */
 import React from "react";
 
