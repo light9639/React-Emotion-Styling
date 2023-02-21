@@ -148,7 +148,7 @@ export default theme;
 ```
 
 ### :zap: Button.tsx
-- props 속성을 사용하여 각 버튼을 다르게 설정한다.
+- `props` 속성을 사용하여 각 버튼을 다르게 설정한다.
 ```js
 /** @jsxImportSource @emotion/react */
 import React from "react";
