@@ -206,3 +206,6 @@ export default function Button({ children, size = "md", variant = "default" }: L
     );
 }
 ```
+## 📎 출처
+- <a href="https://www.daleseo.com/emotion/">Emotion으로 React 컴포넌트 스타일하기</a>
+- <a href="https://tech.osci.kr/2022/06/14/%EC%9B%B9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%97%90-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-with-emotion/">Emotion이란 무엇인가</a>
